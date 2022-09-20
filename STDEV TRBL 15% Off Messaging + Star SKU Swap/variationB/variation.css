@@ -1,0 +1,52 @@
+.eg_wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #cbe1ef;
+    margin: 25px 20px;   
+    padding-block: 10px;
+}
+.eg_content {
+    text-align: left;
+    padding: 10px 0;
+    font-family: inherit;
+    width: 70%;
+    color: #255ba6 ;
+}
+.eg_inr_off {
+    line-height: 1.25;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: initial;
+}
+.eg_signup {
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: -13px;
+    color: #1c518f;
+    cursor: pointer;
+}
+.eg_icon {
+    margin-top: 5px;
+    width: 30%;
+}
+
+
+@media screen and (min-width : 920px) {
+    .eg_content{
+        max-width: 66%;
+    }
+}
+
+@media (min-width: 770px) and (max-width:825px) {
+.eg_wrapper{
+    margin-inline: -25px;
+}
+}
+
+@media (max-width: 769px) {
+.eg_wrapper{
+    margin-inline: -8px;
+}
+}
+
