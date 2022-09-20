@@ -48,10 +48,12 @@ img.ProductPageBanner_banner-image__2lLI_ {
 
 @media screen and (max-width: 767px) {
   .eg_banner>h3 {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 1.2;
   }
   #skip-to-content-link-target>div.ContentfulContent_content__GOW9Y>div.ContentfulMediaComponent_root__1Gp_U.ContentfulMediaComponent_dark__3YFAu>div>a{
     font-size: 10px;
-    padding: 13px;
+    border-radius: 0;
+    padding-right: 0;
   }
 }
