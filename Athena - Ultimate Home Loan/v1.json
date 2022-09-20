@@ -1,0 +1,8 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": ["https://www.athena.com.au/ultimate-home-loan"],
+	"inject": ""
+}
