@@ -1,0 +1,140 @@
+html body .eg_collection {
+  margin-top:0;
+}
+html body .eg_collection .text-box {
+   padding-left: 80px;
+   position: relative;
+   background: #4b4f54;
+}
+
+html body .eg_collection .eg_offer {
+   width: 100%;
+   transform: translate(0px, 0px);
+   font-family: "Baskerville italic", Helvetica, Arial, serif;
+   font-weight: normal;
+   font-style: normal;
+   -webkit-font-smoothing: antialiased;
+   padding-top: 65px;
+    font-size: 48px;
+   line-height: 1;
+   color: #fff;
+}
+
+html body .eg_collection .eg_offer::after {
+  content: "";
+  width: 38%;
+  height: 2.5px;
+  background: #b66e0d;
+  position: absolute;
+  bottom: -12%;
+  left: 0%;
+}
+
+html body .eg_collection .text {
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  line-height: 23px;
+   color: #fff;
+ font-size: 17px !important;
+}
+
+html body .eg_collection .image-wrapper img {
+   min-height: 340px !important;
+}
+
+html body .eg_collection .text-box .content-wrapper {
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  margin-top: -3%;
+  margin-bottom: 6%;
+}
+
+html body .eg_collection .text-box button{
+   margin-top: 24px;
+   color: #fff;
+}
+
+html body .eg_collection .eg_icon svg{
+   width: 30px;
+   fill: #fff;
+   margin-right: -15px;
+}
+
+.c-btn:not(.-text):not(.adyen-checkout__button) {
+  display: inline-block;
+  width: auto;
+  border: none;
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+}
+.eg_inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 2px solid #b66e0d;
+  width: fit-content;
+}
+div.eg_inner:hover{
+  background-color: #e2570a;
+}
+.c-btn:not(.-text):not(.adyen-checkout__button):hover{
+  color: #fff !important;
+}
+
+
+.eg_icon{
+  margin-left: 25px;
+}
+html body .eg_collection .image-wrapper img {
+  min-height: 430px !important;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  html body .eg_collection .eg_offer {
+      font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  html body .eg_collection .eg_offer{
+    font-size: 40px;
+  }
+  
+  html body .eg_collection .eg_offer br{
+    display: none;
+  }
+
+  html body .eg_collection .text {
+    font-size: 20px !important;
+    margin-top: 10px !important;
+}
+
+  .eg_textBox_container {
+    font-size: 18px !important;
+    margin-bottom: 6%;
+    margin-top: 45px;
+  }
+}
+
+
+@media screen and (max-width: 767px){
+   html body .eg_collection{
+       display: none;
+   }
+   html body .c-header-toolbar svg{
+       width: 22px;
+       fill: #fff;
+       margin-right: 15px;
+     display:block;
+   }
+ html body .c-header-toolbar p{
+ margin:0px;
+ }
+}
+ .c-header-toolbar svg {
+   display: none;
+}
