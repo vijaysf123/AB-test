@@ -1,0 +1,58 @@
+.eg-modal-popup {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.eg-modal-content {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.eg-modal-popup .close-btn {
+  font-size: 36px;
+  cursor: pointer;
+  background: #1c336e;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  right: -15px;
+  top: -15px;
+}
+.eg-modal-popup .backgrop-background {
+  background: #000000b3;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+}
+.eg-modal-popup span.cross {
+  position: relative;
+  top: -2px;
+  right: -1px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px){
+  .eg-modal-popup .close-btn {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}

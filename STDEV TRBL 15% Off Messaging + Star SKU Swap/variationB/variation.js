@@ -56,11 +56,12 @@
       "  </div>";
 
     /* Variation functions */
-    const target = document.querySelector(
-      "#shopify-section-product > section > div > div > div > div > div > [data-product-sku]"
-    );
-
+    
     function init() {
+      const target = document.querySelector(
+        "#shopify-section-product > section > div > div > div > div > div > [data-product-sku]"
+      );
+  
       document
         .querySelector("div.product-details > div > form > div.content")
         .insertAdjacentElement("afterend", target);
