@@ -1,0 +1,16 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": ["https://www.quarkexpeditions.com/adventure-options/alpine-heli-trekking",
+	         "https://www.quarkexpeditions.com/adventure-options/flightseeing",
+             "https://www.quarkexpeditions.com/adventure-options/hot-air-ballooning-arctic",
+			 "https://www.quarkexpeditions.com/adventure-options/ice-sheet-experience-arctic",
+			 "https://www.quarkexpeditions.com/adventure-options/camping",
+			 "https://www.quarkexpeditions.com/adventure-options/sea-kayaking",
+			 "https://www.quarkexpeditions.com/adventure-options/stand-up-paddleboarding",
+			 "https://www.quarkexpeditions.com/adventure-options/zodiac-cruising-antarctic"
+],
+	"inject": ""
+}
