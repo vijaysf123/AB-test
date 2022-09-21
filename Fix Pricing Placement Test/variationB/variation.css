@@ -1,0 +1,20 @@
+
+.eg_price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  letter-spacing: 0px !important;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: 'FUTURAPT' !important;
+
+}
+.eg_price h3 {
+  font-size: 22px !important;
+  font-weight: 900;
+}
+
+#pdp--title > p > span,
+div.pdp--header.mobile > div.title-price > p > span{
+  display: none;
+}
