@@ -23,14 +23,15 @@
     }
 
     /* Variation functions */
-    const mall = document.querySelector("#pdp--title > p > span").innerText;
-
+   
     var htmlString =''+ 
 '  <div class="eg_price">'+ 
 '      <h3 class="eg_icon">'+mall+'</h3>'+ 
 '      <h3>Free Returns and exchanges</h3 </div>';
 
     function init() {
+      const mall = document.querySelector("#pdp--title > p > span").innerText;
+
       document.querySelector("#pdp--form > fieldset").insertAdjacentHTML("afterend", htmlString)
         }
     /* Initialize variation */
