@@ -1,0 +1,166 @@
+html body.eg_show{
+    display: none !important;
+}
+html .eg_overlay{
+    background: url(https://lingokids-api-assets-us-west-2-production.s3.us-west-2.amazonaws.com/web/images/bubble-background.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+html .eg_overlay .eg_header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    position: relative;
+}
+
+html .eg_overlay .eg_logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+html .eg_overlay .eg_body{
+    flex: 1 1 0%;
+    padding: 1rem;
+}
+
+html .eg_overlay .eg_hero {
+    display: flex;
+    justify-content: center;
+}
+
+html .eg_overlay .eg_content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 20px 0;
+    font-family: GothamRndMedium;
+}
+
+html .eg_overlay .eg_content h3 span{
+    color: #019e99;
+}
+
+html .eg_overlay .eg_content p{
+    font-size: 18px;
+    font-family: GothamRndMedium;
+    color: #646b9e;
+    margin-bottom: 10px;
+}
+
+html .eg_overlay .eg_content .eg_btn--wrapper{
+    background: #fff;
+    position: sticky;
+    bottom: 0;
+}
+
+html .eg_overlay .eg_content .eg_button{
+    font-family: GothamRndMedium;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: #019e99;
+    color: #fff;
+    font-size: 0.875rem;
+    border-radius: 0.375rem;
+    margin-bottom: 50px;
+}
+
+html .eg_overlay .eg_footer {
+    border-top: 1px solid #dbe0f7;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+html .eg_overlay .eg_footer *{
+    font-family: GothamRndMedium;
+}
+
+html .eg_overlay .eg_footer a{
+    font-weight: 600;
+}
+
+html .eg_slider{
+    max-width: 180px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+html .eg_slider img{
+    height: 100%;
+    width: 100%;
+}
+
+html .eg_slider .eg_awards{
+    max-width: 100px !important;
+    margin: auto;
+}
+
+html .eg_slider .slick-track{
+    display: flex;
+    align-items: center;
+}
+
+html .eg_slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+html .eg_slider .slick-dots li button{
+    display: none;
+}
+html .eg_slider .slick-dots li{
+    position: relative;
+}
+html .eg_slider .slick-dots li::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    position: absolute;
+    background: #fff;
+    border: 2px solid #9ea4ca;
+    left: 0px;
+}
+
+html .eg_slider .slick-dots li.slick-active::before{
+    background: #9ea4ca;
+}
+
+/************Written by vijay***********/
+/************Written by vijay***********/
+/************Written by vijay***********/
+/************Written by vijay***********/
+@media screen and (min-width: 768px) {
+    
+    .eg_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .eg_content p br {
+        display: none;
+    }
+    html > div > div.eg_body > div.eg_content > p {
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+    
+    html > div > div.eg_body > div.eg_content > p {
+        font-size: 19px;
+    }
+    
+    html .eg_overlay .eg_content .eg_button {
+        width: 100%;
+        padding: 0.75rem 3rem;
+        font-size: 1rem;;
+    }
+
+}
