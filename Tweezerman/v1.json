@@ -1,0 +1,8 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": ["https://www.tweezerman.com/best-seller/slant-tweezers.html"],
+	"inject": ""
+}
