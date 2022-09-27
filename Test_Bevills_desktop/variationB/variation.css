@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+    .eg_img img {
+        width: 100% !important;
+        margin: auto !important;
+        object-fit: cover !important;
+        object-position: center !important;
+        display: block !important;
+    }
+    .eg_img_mob{
+        display: none !important;
+    }
+}
