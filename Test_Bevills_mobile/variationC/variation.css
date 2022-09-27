@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+    /* .eg_img img {
+        width: 100% !important;
+        margin: auto !important;
+        object-fit: cover !important;
+        object-position: center !important;
+        display: block !important;
+    } */
+    .eg_img_mob{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 767px){
+    /* .eg_img{
+        display: none !important;
+    }
+    .eg_img img {
+        display: none !important;
+    } */
+    .eg_img_mob{
+        display: block !important;
+        width: 100% !important;
+        margin: auto !important;
+        object-fit: cover !important;
+        object-position: center !important;
+        display: block !important;
+    }
+}
