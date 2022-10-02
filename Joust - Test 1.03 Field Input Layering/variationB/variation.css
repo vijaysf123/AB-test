@@ -1,0 +1,94 @@
+.recommendation[data-v-31b6358c] .ld-form__actions {
+  position: fixed !important;
+  box-shadow: 0 -2px 10px 0 #00000029 !important;
+  z-index: 5 !important;
+  background-color: #fff !important;
+  height: 144px !important;
+  padding: 48px !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.recommendation[data-v-31b6358c] .ld-form__actions::before,
+.recommendation[data-v-6648b0ac] .ld-form__actions::before,
+.recommendation[data-v-74b106a7] .ld-form__actions::before {
+  content: "";
+  position: absolute !important;
+  height: 8px !important;
+  background: linear-gradient(180deg, #3f1472, #6e2d6c) !important;
+  top: 0.5% !important;
+  left: 0 !important;
+}
+
+.recommendation[data-v-31b6358c] .ld-form__actions::after,
+.recommendation[data-v-6648b0ac] .ld-form__actions::after,
+.recommendation[data-v-74b106a7] .ld-form__actions::after {
+  position: absolute !important;
+  color: #3f1472 !important;
+  display: block !important;
+  font-family: "stagmedium", sans-serif;
+  top: 0.5% !important;
+  font-size: 10px !important;
+  line-height: .8 !important;
+}
+
+.recommendation[data-v-74b106a7] .ld-form__actions::after {
+  left: calc(75% + 2px) !important;
+  content: "75%";
+}
+
+.eg_btn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25%;
+  cursor: pointer;
+  font-size: 10px;
+  background: transparent;
+  border: none;
+  padding-block: 5px;
+  font-size: 0;
+}
+
+/************ Mobile Devices *****************/
+
+@media screen and (max-width:767px) {
+
+  .recommendation[data-v-31b6358c] .ld-form__actions::after,
+  .recommendation[data-v-6648b0ac] .ld-form__actions::after,
+  .recommendation[data-v-74b106a7] .ld-form__actions::after {
+    content: "";
+  }
+
+
+  .progress-25[data-v-2b062bf9]::before,
+  .progress-50[data-v-2b062bf9]::before,
+  .progress-75[data-v-2b062bf9]::before {
+    display: none !important;
+  }
+
+  .progress-25[data-v-2b062bf9]::after,
+  .progress-50[data-v-2b062bf9]::after,
+  .progress-75[data-v-2b062bf9]::after {
+    content: "";
+  }
+
+  .recommendation[data-v-74b106a7] .ld-form__actions::before,
+  .recommendation[data-v-57e05ab1] .ld-form__actions::before,
+  .recommendation[data-v-6648b0ac] .ld-form__actions::before {
+    content: "" !important;
+    position: absolute !important;
+    color: #3f1472 !important;
+    display: block !important;
+    font-family: "stagmedium", sans-serif;
+    top: 0.5% !important;
+    font-size: 10px !important;
+    line-height: .8 !important;
+  }
+
+  .recommendation[data-v-74b106a7] .ld-form__actions::after {
+    content: "75%" !important;
+  }
+}

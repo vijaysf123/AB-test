@@ -1,0 +1,8 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": ["https://instant-match.joust.com.au/?_ga=2.21143547.1737975538.1653523904-864481688.1653523904"],
+	"inject": ""
+}
