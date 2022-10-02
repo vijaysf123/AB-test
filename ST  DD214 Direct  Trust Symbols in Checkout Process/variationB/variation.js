@@ -38,7 +38,7 @@
 '  </div>';
 
     function init() {
-      // document.querySelector("#__layout > div > div:nth-child(2) > div.footer-helper").insertAdjacentHTML("beforebegin", eg_str)
+      if(!document.querySelector(".eg_wrapper"))
       document.querySelector("#__layout > div > div:nth-child(2) > div.order-page.container-fluid").insertAdjacentHTML("afterend", eg_str)
 
     }

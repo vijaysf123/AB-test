@@ -1,0 +1,8 @@
+{
+	"files": [
+		"./variationB/variation.css",
+		"./variationB/variation.js"
+	],
+	"urls": ["https://www.waterford.com/en-gb/christmas/christmas-occasion/christmas-tree-decorations#aq=@categories%20==%20(%22crystal_christmas_ornaments%22,%22gold_christmas_ornaments%22)&numberOfResults=20"],
+	"inject": ""
+}
