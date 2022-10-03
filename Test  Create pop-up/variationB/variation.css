@@ -1,0 +1,187 @@
+#eg_popup_container.eg_popup_container {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 500ms;
+  visibility: visible;
+  opacity: 1;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.7);
+  display: block
+}
+
+.eg_popup {
+  background-image: url("https://expogrowth.in/wp-content/uploads/2022/10/background_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility: visible;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 5px;
+  max-width: 800px;
+  height: fit-content;
+  position: relative;
+  transition: all 5s ease-in-out;
+  top: 10% !important;
+  box-shadow: 10px -1px 9px rgb(0 0 0 / 80%)
+}
+
+.eg_wrapper {
+  padding-inline: 50px;
+  padding-top: 50px;
+}
+
+.eg_top {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1;
+  font-family: 'WotfardMedium' !important;
+}
+
+.eg_para {
+  margin-block: 19px;
+  font-size: 30px;
+  color: #eee;
+  line-height: 1.2;
+  font-weight: 100 !important;
+}
+
+.eg_number {
+  font-size: 40px;
+  padding: 13px 58px;
+  color: #fff;
+  font-family: 'WotfardBold';
+  background-color: #21316a;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+img.eg_img {
+  width: 50px;
+  height: auto;
+  object-fit: cover;
+  padding-bottom: 5px;
+}
+
+.eg_footer {
+  padding-left: 50px;
+  color: #eee;
+  font-size: 23px;
+  padding-top: 20px;
+}
+
+.eg_close {
+  font-size: 36px;
+  cursor: pointer;
+  background: #1c336e;
+  color: white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: -15px;
+  top: -15px;
+}
+
+.eg_final {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.eg_final p {
+  color: #eee;
+  text-align: center;
+  font-size: 13px;
+}
+
+.eg_icon {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#eg_popup_container>section>div.eg_final>div>img {
+  width: 40px;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .eg_popup {
+    height: 405px;
+    width: 375px;
+    top: 25% !important;
+  }
+
+  .eg_top {
+    font-size: 21px;
+  }
+
+  .eg_para {
+    margin-block: 17px;
+    font-size: 20px;
+  }
+
+  .eg_number {
+    font-size: 24px;
+    padding: 9px 10px;
+  }
+
+  img.eg_img {
+    width: 30px;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 8px;
+  }
+
+  .eg_wrapper {
+    padding-inline: 9px;
+    padding-top: 35px;
+  }
+
+  .eg_footer {
+    padding-left: 10px;
+    font-size: 17px;
+    font-family: 'WotfardRegular' !important;
+  }
+
+  .eg_final {
+    padding: 15px 10px;
+  }
+
+  .eg_final p {
+    font-size: 11px;
+  }
+
+  .eg_icon {
+    margin-right: 15px;
+  }
+
+  #eg_popup_container>section>div.eg_final>div>img {
+    width: 35px;
+  }
+
+  .eg_close {
+    right: -3% !important;
+    top: -4%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .eg_popup {
+    top: 25% !important;
+  }
+}
