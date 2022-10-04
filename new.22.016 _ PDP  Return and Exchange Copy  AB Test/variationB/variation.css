@@ -1,0 +1,70 @@
+.eg_tooltip {
+    cursor: pointer;
+    color: #4e616a;
+    margin-left: 4px;
+    margin-bottom: 0px;
+    /* position: relative; */
+}
+
+.row.tile>.pdp-tile>.attributes>.shipping {
+    position: relative;
+}
+
+.eg_tooltipCont>span {
+    border: 3px solid #f9f9f9;
+    padding: 10px 10px 5px;
+    background: #ffffff;
+    color: #696158;
+    display: inline-block;
+}
+
+.eg_tooltipCont {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    z-index: 999;
+    display: none;
+    padding-top: 30px;
+    max-width: 95%;
+}
+
+.eg-tooltip-arrow {
+    content: '';
+    position:
+        absolute;
+    width: 20px;
+    left: 35%;
+    height: 20px;
+    background: #fff;
+    top: 21px;
+    rotate: 45deg;
+    border: 3px solid #f9f9f9;
+    border-right: none;
+    border-bottom: none;
+    z-index: 999;
+}
+
+.eg_content {
+    display: flex;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 27px;
+}
+
+.shipping hr+p {
+    margin-bottom: 1px;
+}
+
+@media screen and (min-width: 1101px) {
+
+    .eg_tooltip:hover .eg_tooltipCont {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .eg_tooltip.eg-active .eg_tooltipCont {
+        display: block;
+    }
+}
