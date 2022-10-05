@@ -22,14 +22,6 @@
       }, delayTimeout);
     }
 
-    /* Variation functions */
-   
-//     var eg_String =''+ 
-// '  <div class="eg_img">'+ 
-// '  '+ 
-// '      <img src="https://bevilleswebimages.s3.ap-southeast-2.amazonaws.com/Test%201.05%20-%20Eternity%20Club%20-%20Desktop.png" />'+ 
-// '  '+ 
-// '  </div>';
 
 var eg_string_mob_2 =''+ 
 '  <div class="eg_img_mob_2">'+ 
@@ -40,8 +32,10 @@ var eg_string_mob_2 =''+
 
    
 function init(){
-  // document.querySelector(".shopify-section > section > div > div > div.opt-shop-sale > div.opt-new-group").insertAdjacentHTML("afterend", eg_String);
   document.querySelector(".shopify-section > section > div > div > div.opt-shop-sale > div.opt-new-group").insertAdjacentHTML("afterend", eg_string_mob_2);
+  document.querySelector('.eg_img_mob_2').addEventListener('click',function(){
+    window.location.href = "https://www.bevilles.com.au/account/register";
+});
 }
     /* Initialize variation */
     waitForElement(".shopify-section > section > div > div > div.opt-shop-sale > div.opt-new-group", init, 50, 15000);

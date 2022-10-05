@@ -29,7 +29,7 @@
     '  <div class="eg_content"> Easy returns.'+  
     '      <p class="eg_tooltip">Learn More.'+ 
     '     <span class="eg_tooltipCont"><span>We want you to love everything you purchase from us - car seats, strollers,home and gear, and anything else. If for any reason you don\'t, even if you just change your mind , start our self-service return process by mail. '+ 
-    '            <a href="#"><b>Click here for more info</b></a><span class="eg-tooltip-arrow"></span>'+ 
+    '            <a href="https://www.gracobaby.com/shipping.html"><b>Click here for more info</b></a><span class="eg-tooltip-arrow"></span>'+ 
     '             </span></span>'+ 
     '             </p>'+ 
     '  </div>';
