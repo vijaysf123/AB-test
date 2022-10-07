@@ -1,0 +1,12 @@
+.selector-products .products-row .product-tile:nth-child(n+10){
+    display: none !important;
+}
+
+
+/******Mobile view*******/
+
+@media screen and (max-width: 450px) {
+    .product-presentation .product-tile:nth-child(n+10){
+        display: none;
+    }
+}
