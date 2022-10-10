@@ -1,0 +1,164 @@
+.eg_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+img.egImg {
+    width: 100px !important;
+    height: auto;
+    filter: invert(35%);
+}
+
+.eg_logo_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px !important;
+}
+
+.eg_one,
+.eg_two,
+.eg_three,
+.eg_fourth {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+img.egImg.img1 {
+    width: 238px !important;
+}
+
+img.egImg.img3 {
+    width: 180px !important;
+}
+
+img.egImg.img2 {
+    margin-top: 10px;
+}
+
+img.egImg.img5 {
+    width: 160px !important;
+}
+
+img.egImg.img4 {
+    width: 150px !important;
+}
+
+img.egImg.img6 {
+    width: 180px !important;
+}
+
+img.egImg.img8 {
+    width: 150px !important;
+}
+
+h2.eg_head {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+@media screen and (max-width:991px) {
+    img.egImg.img2 {
+        width: 90px !important;
+        margin-top: 5px;
+    }
+
+    img.egImg.img1 {
+        width: 185px !important;
+    }
+
+    img.egImg.img3 {
+        width: 145px !important;
+    }
+
+    img.egImg.img5 {
+        width: 130px !important;
+    }
+
+    img.egImg.img4 {
+        width: 135px !important;
+    }
+
+    img.egImg.img6 {
+        width: 160px !important;
+    }
+
+    img.egImg.img8 {
+        width: 135px !important;
+    }
+
+    img.egImg.img7 {
+        width: 90px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .eg_one {
+        order: -1;
+        padding-right: 30px;
+        margin-bottom: 25px;
+    }
+
+    .eg_two {
+        order: 2;
+    }
+
+    .eg_three {
+        order: 0;
+    }
+
+    .eg_fourth {
+        order: 3;
+    }
+
+    img.egImg.img1 {
+        width: 155px !important;
+    }
+
+    .egImg {
+        margin-bottom: 15px;
+    }
+
+    img.egImg.img2 {
+        width: 90px !important;
+    }
+
+    img.egImg.img3 {
+        width: 130px !important;
+    }
+
+    img.egImg.img4 {
+        width: 110px !important;
+    }
+
+    img.egImg.img5 {
+        width: 115px !important;
+        margin-top: -6px;
+    }
+
+    img.egImg.img6 {
+        width: 140px !important;
+        margin-top: 5px;
+    }
+
+    img.egImg.img7 {
+        width: 70px !important;
+    }
+
+    img.egImg.img8 {
+        width: 105px !important;
+        margin-top: 10px;
+    }
+
+    h2.eg_head {
+        margin-block: 30px;
+    }
+
+}
