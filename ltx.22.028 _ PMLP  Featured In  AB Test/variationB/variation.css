@@ -67,7 +67,7 @@ h2.eg_head {
 @media screen and (max-width:991px) {
     img.egImg.img2 {
         width: 90px !important;
-        margin-top: 5px;
+        margin-top: 5%;
     }
 
     img.egImg.img1 {
