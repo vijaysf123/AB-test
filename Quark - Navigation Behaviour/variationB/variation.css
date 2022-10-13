@@ -1,0 +1,5 @@
+
+body > div > div > nav.navbar{
+    position: fixed !important;
+    z-index: 999999 !important;
+}
