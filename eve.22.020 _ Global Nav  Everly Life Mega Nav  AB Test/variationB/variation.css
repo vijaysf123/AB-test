@@ -1,4 +1,4 @@
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1200px) {
     
     ul.kKjegh  .eg_first > a{
         background-color: #fff !important;
@@ -6,8 +6,8 @@
         font-weight: 900 !important;
             display: flex;
         padding-left: 6%;
-        font-family: Sohne,sans-sarif;
-            align-items: center;
+        font-family: 'Circular-Loom';
+      align-items: center;
         text-decoration: none;
         }
  
@@ -29,9 +29,16 @@
         .eg_inner .eg_first p {
             padding-left: 15% !important;
         }
+      
+    .eg_container div.eg_first p {
+            font-size: 14px;
+            font-family: 'Circular-Loom';
+            color: #666;
+            padding-left: 6%;
+        }
+    
         
-        div.eg_inner  > div.eg_first > a ,
-        div.eg_inner  > div.eg_first > p {
+        div.eg_inner  > div.eg_first > a {
             padding-left: 15%;
             text-decoration: none;
         }
@@ -48,13 +55,7 @@
             gap: 30px;
         }
         
-        ul .eg_container div.eg_first p {
-            font-size: 14px;
-            font-family: 'Circular-Loom';
-            color: #666;
-            padding-left: 6%;
-        }
-    
+       
         img.eg_img {
             width: 20px;
             position: absolute;
@@ -63,7 +64,7 @@
     }
     
     
-    @media screen and (max-width: 1099px){
+    @media screen and (max-width: 1199px){
         .eg_first{
             display: flex;
             flex-direction: column;
@@ -78,27 +79,30 @@
             display: flex;
             align-items: center;
           text-decoration : none;
+             padding-left: 0%;
+            font-family: 'Circular-Loom';
+            font-weight: 600;
+            font-size: 27px;
         }
         div.eg_inner > div:nth-child(2){
             border-bottom: none !important;
           }
-          div.eg_first > a{
-            padding-left: 0%;
-            font-family: 'Circular-Loom';
-          font-weight: 600;
-        }
+         
+         div.eg_first > p {
+              color: #555;
+          }
     }
     
     @media screen and (max-width: 767px) {
 
         img.eg_img {
-            width: 25px;
+            width: 30px;
             margin-right: 3%;
         }
         
           div.eg_first > p {
-            padding-left: 10%;
-            font-size: 15px;
+            padding-left: 11%;
+            font-size: 16px;
               color: #555;
               font-weight: 300 !important;
           }
@@ -117,7 +121,7 @@
         
             div.eg_first > p {
                 padding-left: 7%;
-                font-size: 22px !important;
+                font-size: 20px !important;
           }
     }
     
@@ -136,3 +140,16 @@
                 font-size: 22px !important;
           }
     }
+
+@media (min-width:1026px) and (max-width: 1199px){
+    div.eg_first > a {
+        font-size: 27px;  
+}
+    .eg_img{
+            margin-right: 2%;
+    }
+    div.eg_first > p {
+                padding-left: 7%;
+                font-size: 23px !important;
+          }
+}
