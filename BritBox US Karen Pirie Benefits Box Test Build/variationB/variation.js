@@ -39,11 +39,11 @@
 
 function init(){
 
-  document.querySelector("#page-block-u0ux7mqdsri").insertAdjacentHTML("afterend", customString)
+  document.querySelector("main #page-block-u0ux7mqdsri").insertAdjacentHTML("afterend", customString)
 
 }
     /* Initialize variation */
-    waitForElement("#page-block-u0ux7mqdsri", init, 50, 15000);
+    waitForElement("main #page-block-u0ux7mqdsri", init, 50, 15000);
   } catch (e) {
     if (debug) console.log(e, "error in Test" + variation_name);
   }
