@@ -11,8 +11,8 @@
     }
 
     main .container.main__inner-wrapper div.rating-summary {
-       text-align: center !important;
-    margin-top: 10px !important;
+        text-align: center !important;
+        margin-top: 10px !important;
     }
     
     .row .product-details .sku  {
