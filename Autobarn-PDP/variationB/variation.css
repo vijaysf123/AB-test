@@ -11,7 +11,7 @@
     
     .row .product-details .sku {
         display: flex;
-        font-size: 14px !important;
+        font-size: 13px !important;
         text-align: center !important;
         max-width: 100% !important;;
         margin: auto !important;
