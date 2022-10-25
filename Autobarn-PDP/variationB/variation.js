@@ -47,7 +47,7 @@
     }
 
     /* Initialize variation */
-    waitForElement("body > main > div.container.main__inner-wrapper > div", init, 50, 15000);
+    waitForElement("main > div.container.main__inner-wrapper > div", init, 50, 15000);
 
   } catch (e) {
     if (debug) console.log(e, "error in Test" + variation_name);
