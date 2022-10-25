@@ -1,0 +1,32 @@
+@media screen and (max-width: 767px) {
+    
+    .row .product-details.page-title {
+        padding-left: 5px !important;
+        padding-right: 0;
+        text-align: left  !important;
+    }
+    
+    div.product-details.page-title > div.product__brand_promo > div.product-promotion {
+        display: none !important;
+    }
+
+    main .container.main__inner-wrapper div.rating-summary {
+        text-align: center !important;
+    }
+    
+    .row .product-details .sku  {
+        display: flex;
+        font-size: 14px !important;
+         margin-bottom: 0 !important;
+    }
+    
+    main div.product-details.page-title > div.sku > span.sku {
+        border-right: 2px solid;
+        padding-right: 18px;
+    }
+    
+    main div.product-details.page-title > div.sku > span.part_number {
+        margin-left: 20px !important;
+    }
+    
+}

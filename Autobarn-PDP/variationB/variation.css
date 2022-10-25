@@ -1,0 +1,25 @@
+@media screen and (max-width: 767px) {
+    
+    main .container.main__inner-wrapper div.rating-summary {
+        text-align: center !important;
+    }
+    
+    div.product-details.page-title > div.product__brand_promo > div.product-promotion {
+        display: none !important;
+    }
+    
+    .row .product-details .sku {
+        display: flex;
+        font-size: 14px !important;
+        text-align: center !important;
+        max-width: 100% !important;;
+        margin: auto !important;
+        padding-left: 6% !important;
+    }
+    
+    .page-productDetails .part_number {
+        margin-left: 15px !important;
+    }
+    
+    
+}
