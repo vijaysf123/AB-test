@@ -1,8 +1,8 @@
 @media screen and (max-width: 767px) {
     
     main .container.main__inner-wrapper div.rating-summary {
-          text-align: center !important;
-         margin-top: 10px !important;
+        text-align: center !important;
+        margin-top: 10px !important;
     }
     
     div.product-details.page-title > div.product__brand_promo > div.product-promotion {
@@ -20,6 +20,7 @@
     
     .page-productDetails .part_number {
         margin-left: 15px !important;
+        margin-right: 10% !important;
     }
     
     
