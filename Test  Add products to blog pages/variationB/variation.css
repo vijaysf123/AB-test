@@ -17,7 +17,7 @@
 }
 
 .eg-products-container div.product-item-info:hover {
-    box-shadow: 0 50px 24px rgb(0 0 0 / 20%);
+    box-shadow: 0 15px 24px rgb(0 0 0 / 20%);
 }
 
 .eg-products-container .product-item-image {
