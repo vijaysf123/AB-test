@@ -1,0 +1,19 @@
+
+@media(max-width: 767px) {
+    .pdp-add-to-cart-customize .add-to-cart-btn {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100% !important;
+        z-index: 999;
+        bottom: 0;
+    }
+
+    .pdp-add-to-cart-customize .product-quantity-add-to-cart {
+        margin-bottom: 0;
+    }
+
+    footer.c-footer{
+        padding-bottom: 4rem;
+    }
+}
