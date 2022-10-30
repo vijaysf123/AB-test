@@ -82,6 +82,10 @@
     font-size: small;
 }
 
+.product-item-details > strong > a.product-item-link:hover{
+    text-decoration : none !important;
+}
+
 .eg-products-container div.attr-colors {
     display: flex;
     gap: 5px;
