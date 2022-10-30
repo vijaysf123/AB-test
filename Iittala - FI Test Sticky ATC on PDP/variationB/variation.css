@@ -9,6 +9,11 @@
         bottom: 0;
     }
 
+  #pdp-ecom-container a.c-action-indicator{
+        bottom: 64px;
+    }
+    
+
     footer.c-footer{
         padding-bottom: 4rem;
     }
