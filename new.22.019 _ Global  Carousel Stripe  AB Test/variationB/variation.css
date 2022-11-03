@@ -1,0 +1,16 @@
+#site-stripe-carousel ol.carousel-indicators {
+    display: none !important;
+}
+
+#site-stripe-carousel a.carousel-control-prev,
+#site-stripe-carousel a.carousel-control-next{
+    display: none;
+}
+
+/* #site-stripe-carousel > div > div:nth-child(2) {
+    display: none;
+}
+
+#site-stripe-carousel > div > div:nth-child(1) {
+    display: block;
+} */
