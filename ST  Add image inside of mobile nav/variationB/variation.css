@@ -1,0 +1,18 @@
+@media screen and (max-width: 476px) {
+  .eg_trust h4 {
+    color: #fff;
+    text-align: center;
+    font-family: 'futura-pt';
+    font-size: 32px;
+    font-weight: 600;
+    padding: 10px !important;
+  }
+
+  .mobile__nav .nav--content {
+    margin-bottom: -6px;
+}
+
+  .eg_img img {
+    width: 100%;
+}
+}
