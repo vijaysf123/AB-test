@@ -1,0 +1,39 @@
+@media screen and (max-width: 480px) {
+    .eg_collections {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 1.5rem;
+        align-items: center;
+        font-family: "Gill sans MT", sans-serif;
+    }
+    
+    .eg_img img {
+        width: 100%;
+        border-radius: 4px;
+        height: 340px;
+        object-fit: cover;
+    }
+
+    .eg_img {
+        margin-block: 40px;
+        height: auto;
+    }
+
+    .eg_innr {
+        text-align: center;
+        padding-bottom: 1.5em;
+    }
+    
+    .eg_collections h2{
+        color: #005ca8;
+        font-size: 45px;
+        font-weight: 500;
+        padding-bottom: 0;
+    }
+    
+    .eg_innr h3 {
+        font-size: 30px;
+        color: #0d5aa3;
+        font-weight: 500;
+    }
+}
