@@ -1,0 +1,83 @@
+.s001-banner-wrapper {
+  background : rgb(17, 17, 17);
+  display : block;
+  z-index : 9999;
+}
+
+
+.s001-banner-data p {
+  margin-bottom : 0px;
+  text-align : center;
+  padding: 0;
+  font-weight : 500;
+  color: #ffd92b;
+  font-size: 20px;
+  font-family: FuturaPT,sans-serif;
+  letter-spacing : 0.2px;
+}
+@media only screen and (max-width: 600px) {
+  .s001-banner-wrapper {
+    padding : 7px;
+    /* margin-bottom: 15px; */
+  }
+
+  .h2-custom {
+    margin-top : 20px;
+  }
+
+  .s001-banner-data p {
+    font-size : 17px;
+  }
+}
+@media only screen and (max-width: 1242px) {
+  .s001-banner-wrapper.green-floating {
+    background : rgb(80, 158, 49);
+    display : block;
+    position : fixed;
+    top : 115px;
+    width : 80%;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .s001-banner-wrapper.green-floating {
+    top : 110px;
+    width : 80%;
+  }
+}
+@media only screen and (max-width: 1075px) {
+  .s001-banner-wrapper.green-floating {
+    top : 97px;
+    width : 86.2%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .s001-banner-wrapper.green-floating {
+    top : 97px;
+    width : calc(100% - 141px);
+  }
+  .s001-banner-wrapper{
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 725px) {
+  .s001-banner-wrapper.green-floating {
+    top : 89px;
+    width : calc(100% - 62px);
+  }
+
+  .s001-banner-data p {
+    padding: 0 10px;
+    line-height: 01;
+}
+}
+span.whole-time-block span {
+  font-weight : 700;
+  color : rgb(255, 0, 0);
+  font-size: 16px;
+
+}
+
+.s001-banner-data span span {
+  font-weight : 700;
+  color : rgb(255, 0, 0);
+}
