@@ -34,7 +34,7 @@
 
     function init() {
 
-      if (window.innerWidth < 476) {
+      if (window.innerWidth < 768) {
         document.querySelector("#shopify-section-navigation > div.mobile__nav > div.creep-it-real__container").insertAdjacentHTML("beforebegin", egImgContent); 
       }
       
