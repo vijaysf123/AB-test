@@ -4,6 +4,12 @@
   z-index : 9999;
 }
 
+span.whole-time-block span {
+  font-weight : 700;
+  color: #fafafa !important;
+  font-size: 16px;
+}
+
 
 .s001-banner-data p {
   margin-bottom : 0px;
@@ -69,15 +75,4 @@
     padding: 0 10px;
     line-height: 01;
 }
-}
-span.whole-time-block span {
-  font-weight : 700;
-  color : rgb(255, 0, 0);
-  font-size: 16px;
-
-}
-
-.s001-banner-data span span {
-  font-weight : 700;
-  color : rgb(255, 0, 0);
 }
