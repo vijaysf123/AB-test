@@ -1,3 +1,9 @@
+.eg-usps {
+    display: inline-block;
+    width: 100%;
+    border-collapse: collapse;
+}
+
 .eg-wrapper {
     margin-inline: auto;
     max-width: 1300px;
@@ -6,15 +12,16 @@
 .eg-container {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 20px 30px;
 }
 
 .eg-container>div {
     flex: 1;
     flex-basis: 100%;
     display: flex;
-    gap: 18px;
-    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .eg-container>div+div {
@@ -30,8 +37,14 @@
 
 .eg-pricing {
     display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.eg-price-container {
+    display: flex;
     gap: 20px;
-    align-items: center;
+
 }
 
 .eg-pricing>p {
@@ -40,13 +53,13 @@
 }
 
 
-.eg-pricing>div span {
+.eg-pricing .eg-price span {
     color: #1f3d5c;
     font-size: 30px;
     font-weight: 600;
 }
 
-.eg-pricing>div {
+.eg-pricing .eg-price {
     font-size: 16px;
     font-weight: 600;
 }
@@ -61,8 +74,9 @@
 
 @media(max-width: 767px) {
     .eg-container {
-        flex-direction: column;
+    
         gap: 20px;
+        flex-direction: column;
     }
 
     .eg-pricing>p {
@@ -79,7 +93,7 @@
 }
 
 @media(max-width: 576px) {
-    .eg-pricing>div span {
+    .eg-pricing .eg-price span {
         font-size: 26px;
     }
 }
