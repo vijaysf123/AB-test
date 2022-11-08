@@ -1,0 +1,51 @@
+
+.eg_btm {
+    display:flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+}
+
+.eg_btm a{
+    text-decoration: none;    
+}
+
+a.eg_quote {
+    color: #fff;
+    font-weight: 500;
+    background: #e52500;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+a.eg_learn {
+    color: #e73310;
+    font-weight: 500;
+}
+
+.css-gw8ne9,
+.css-tk93o1,
+section:nth-child(6) picture {
+    background: #fff !important;
+}
+
+
+/* .css-16f4053 img {
+    width: 100%;
+    height: 109% !important;
+    object-fit: cover;
+    padding-bottom: 10px;
+} */
+
+
+@media screen and (max-width: 1450px) {
+    .eg_btm {
+        gap: 25px;
+        margin-bottom: 20px;
+    }
+    
+    a.eg_quote.updated {
+        padding: 5px 20px 8px;
+    }
+}
