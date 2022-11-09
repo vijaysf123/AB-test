@@ -3,6 +3,7 @@
 		"./variationB/variation.css",
 		"./variationB/variation.js"
 	],
-	"urls": ["https://octopart.com/electronic-parts/integrated-circuits-ics"],
+	"urls": ["https://octopart.com/electronic-parts/integrated-circuits-ics",
+	https://octopart.com/electronic-parts],
 	"inject": ""
 }
